@@ -43,13 +43,13 @@
         <div class="d-flex align-items-center justify-content-between">
           <div class="logo">
             <div class="site-logo">
-              <a href="{{url ('/')}}" class="js-logo-clone"><strong class="text-primary">Sekar</strong>sari</a>
+              <a href="{{url ('/home')}}" class="js-logo-clone"><strong class="text-primary">Sekar</strong>sari</a>
             </div>
           </div>
           <div class="main-nav d-none d-lg-block">
             <nav class="site-navigation text-right text-md-center" role="navigation">
               <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li class="active"><a href="{{url ('/')}}">Home</a></li>
+                <li class="active"><a href="{{url ('/home')}}">Home</a></li>
                 <li><a href="{{url ('/katalog')}}">Obat</a></li>
                 <li class="has-children">
                   <a href="#">Kategori</a>
