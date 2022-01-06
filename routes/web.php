@@ -24,4 +24,4 @@ Route::get('/katalog', [ObatController::class, 'katalog'])->name('katalog');
 
 Route::get('/detailobat/{id}', [ObatController::class, 'detail'])->name('detail');
 
-Route::post('/tambahobat', [ObatController::class, 'tambahobat'])->name('simpanobat');
+Route::post('/admin/tambahobat', [ObatController::class, 'tambahobat'])->name('simpanobat');
