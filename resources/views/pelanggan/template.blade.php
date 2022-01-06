@@ -9,17 +9,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="template/fonts/icomoon/style.css">
 
-  <link rel="stylesheet" href="template/css/bootstrap.min.css">
-  <link rel="stylesheet" href="template/fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="template/css/magnific-popup.css">
-  <link rel="stylesheet" href="template/css/jquery-ui.css">
-  <link rel="stylesheet" href="template/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="template/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="{{ asset('template/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('template/fonts/flaticon/font/flaticon.css') }}">
+  <link rel="stylesheet" href="{{ asset('template/css/magnific-popup.css') }}">
+  <link rel="stylesheet" href="{{ asset('template/css/jquery-ui.css') }}">
+  <link rel="stylesheet" href="{{ asset('template/css/owl.carousel.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('template/css/owl.theme.default.min.css') }}">
 
 
-  <link rel="stylesheet" href="template/css/aos.css">
+  <link rel="stylesheet" href="{{ asset('template/css/aos.css') }}">
 
-  <link rel="stylesheet" href="template/css/style.css">
+  <link rel="stylesheet" href="{{ asset('template/css/style.css') }}">
 
 </head>
 
